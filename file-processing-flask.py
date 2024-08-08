@@ -21,7 +21,7 @@ CORS(app)
 app.config['MAX_CONTENT_LENGTH'] = 100 * 1024 * 1024  # 100MB
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path as needed
 GROQ_API_URL = "https://api.groq.com/openai/v1/audio/transcriptions"
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "use your own api key"
 
 # Initialize Groq client
 groq_client = Groq(api_key=GROQ_API_KEY)
